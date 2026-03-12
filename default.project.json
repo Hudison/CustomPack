@@ -1,0 +1,14 @@
+{
+  "name": "CustomPack-main",
+  "tree": {
+    "$className": "DataModel",
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "CustomPack": {
+          "$path": "CustomPack"
+        }
+      }
+    }
+  }
+}
