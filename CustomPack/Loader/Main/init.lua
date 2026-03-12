@@ -1041,7 +1041,7 @@ end
 
 local function OnInputBegan(input, isProcessed)
 	-- Pass through keyboard hotkeys when not typing into a TextBox and not disabled (except for the Drop key)
-	if input.UserInputType == Enum.UserInputType.Keyboard and not TextBoxFocused and (WholeThingEnabled or input.KeyCode.Value == DROP_HOTKEY_VALUE) then
+	if input.UserInputType == Enum.UserInputType.Keyboard and not TextBoxFocused and game.UserInputService:GetFocusedTextBox() == nil and (WholeThingEnabled or input.KeyCode.Value == DROP_HOTKEY_VALUE) then
 		local hotkeyBehavior = HotkeyFns[input.KeyCode.Value]
 		if hotkeyBehavior then
 			hotkeyBehavior(isProcessed)
