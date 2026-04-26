@@ -5,15 +5,15 @@ authors = ["CustomPack"]
 license = "MIT"
 
 includes = [
-    "Loader/Main/**/*.lua", 
-    "README.md", 
+    "CustomPack/Loader/Main/**/*.lua",
+    "README.md",
     "pesde.toml"
 ]
 
 [target]
 environment = "roblox"
-build_files = ["Loader/Main"]
-lib = "Loader/Main/init.lua"
+build_files = ["CustomPack/Loader/Main"]
+lib = "CustomPack/Loader/Main/init.lua"
 
 [scripts]
 roblox_sync_config_generator = ".pesde/roblox_sync_config_generator.luau"
