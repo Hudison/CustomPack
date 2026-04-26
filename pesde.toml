@@ -4,11 +4,7 @@ description = "The CustomPack pesde port"
 authors = ["CustomPack"]
 license = "MIT"
 
-includes = [
-    "CustomPack/Loader/Main/**",
-    "README.md",
-    "pesde.toml"
-]
+includes = ["CustomPack/Loader/Main/**/*.lua"]
 
 [target]
 environment = "roblox"
