@@ -8,8 +8,8 @@ includes = ["CustomPack/Loader/Main/**/*.lua"]
 
 [target]
 environment = "roblox"
-build_files = ["CustomPack/Loader/Main"]
-lib = "init.lua"
+build_files = ["CustomPack"]
+lib = "CustomPack/Loader/Main/init.lua"
 
 [scripts]
 roblox_sync_config_generator = ".pesde/roblox_sync_config_generator.luau"
