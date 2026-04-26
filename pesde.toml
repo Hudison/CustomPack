@@ -1,0 +1,18 @@
+name = "Hudison/CustomPack"
+version = "1.5.3"
+description = "The CustomPack pesde port"
+authors = ["CustomPack"]
+license = "MIT"
+includes = ["CustomPack/Loader/Main*", "README.md", "pesde.toml"]
+
+[target]
+environment = "roblox"
+build_files = ["CustomPack/Loader/Main"]
+lib = "CustomPack/Loader/Main/init.lua"
+
+[scripts]
+roblox_sync_config_generator = ".pesde/roblox_sync_config_generator.luau"
+sourcemap_generator = ".pesde/sourcemap_generator.luau"
+
+[indices]
+default = "https://github.com/daimond113/pesde-index"
