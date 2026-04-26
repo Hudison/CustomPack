@@ -5,7 +5,7 @@ authors = ["CustomPack"]
 license = "MIT"
 
 includes = [
-    "CustomPack/Loader/Main/**/*.lua",
+    "CustomPack/Loader/Main/**",
     "README.md",
     "pesde.toml"
 ]
