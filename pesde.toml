@@ -8,7 +8,7 @@ includes = ["CustomPack/Loader/Main/**/*.lua"]
 
 [target]
 environment = "roblox"
-build_files = ["CustomPack/Loader/Main/*"]
+build_files = ["CustomPack/Loader/Main"]
 lib = "CustomPack/Loader/Main/init.lua"
 
 [scripts]
